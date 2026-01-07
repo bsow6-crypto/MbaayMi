@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mbaay Mi - Accueil</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Google Material Icons (optionnel) -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Mbaay Mi</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="annonces.html">Annonces</a>
+            <a href="contact.html">Contact</a>
+            <a href="dashboard.html">Dashboard</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Hero section -->
+        <section class="hero">
+            <img src="assets/images/organic-farm-with-rows-of-vegetables-and-fruit-trees-promoting-pesticide-free-agriculture-photo (1).webp" alt="Agriculture" class="hero-img">
+            <div class="hero-text">
+                <h2>Bienvenue sur Mbaay Mi</h2>
+                <p>Votre plateforme pour consulter des informations agricoles fiables et échanger entre acteurs du secteur.</p>
+            </div>
+        </section>
+
+        <!-- Cards section -->
+        <section class="cards">
+            <div class="card" onclick="window.location.href='annonces.html'">
+                <img src="assets/images/3057072.webp" alt="Annonces">
+                <h3>Annonces</h3>
+                <p>Consultez les dernières annonces agricoles.</p>
+            </div>
+            <div class="card" onclick="window.location.href='contact.html'">
+                <img src="assets/images/icons-business-card-contact-information-symbols-vector-illustration-isolated-on-transparent-background-free-png.webp" alt="Contact">
+                <h3>Contact</h3>
+                <p>Envoyez-nous un message ou une demande d’information.</p>
+            </div>
+            <div class="card" onclick="window.location.href='dashboard.html'">
+                <img src="assets/images/10397268.webp" alt="Dashboard">
+                <h3>Dashboard</h3>
+                <p>Visualisez vos abonnements et statistiques.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        © 2025 - Mbaay Mi
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/index.js" defer></script>
+</body>
+</html>
