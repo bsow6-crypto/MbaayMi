@@ -1,0 +1,48 @@
+
+/* dashboard.css */
+
+.stats {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+.stat-card h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.stat-card p.count {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .stats {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stat-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
